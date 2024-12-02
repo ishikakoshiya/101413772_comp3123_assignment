@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { fetchEmployees, deleteEmployee } from '../api';
-import './EmployeeList.css';  // Ensure the path is correct
+import './EmployeeList.css';  
 
 const EmployeeList = () => {
   const [employees, setEmployees] = useState([]);

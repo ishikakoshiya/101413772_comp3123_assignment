@@ -1,18 +1,16 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Container */
   .container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
   }
   
-  /* Header */
   h2 {
     font-size: 24px;
     font-weight: bold;
@@ -20,7 +18,6 @@
     margin-bottom: 20px;
   }
   
-  /* Add Employee Button */
   button {
     background-color: #3498db;
     color: white;
@@ -41,7 +38,6 @@
     outline: none;
   }
   
-  /* Table Styling */
   table {
     width: 100%;
     border-collapse: collapse;
@@ -106,7 +102,6 @@
     background-color: #2980b9;
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     table th,
     table td {
